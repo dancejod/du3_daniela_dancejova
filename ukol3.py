@@ -16,7 +16,7 @@ with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojs
     
     for adresa in range(len(data_adresy["features"])):
         #print(data_adresy["features"][adresa]["properties"]["addr:street"], end=" "), print(data_adresy["features"][adresa]["properties"]["addr:housenumber"])
-        krovak = wgs2jtsk.transform((data_adresy["features"][adresa]["geometry"]["coordinates"][1]),(data_adresy["features"][adresa]["geometry"]["coordinates"][0]))
+        krovak = wgs2jtsk.transform((data_adresy["features"][adresa]["geometry"]["coordinates"][0]),(data_adresy["features"][adresa]["geometry"]["coordinates"][1]))
         
         for kontajner in range(len(data_kontajnery["features"])):
             if data_kontajnery["features"][kontajner]["properties"]["PRISTUP"] == "volně":
@@ -24,5 +24,5 @@ with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojs
                 dlz_y = data_kontajnery["features"][kontajner]["geometry"]["coordinates"][1]
 
                 if vzdialenost == None:
-                    vzdialenost = sqrt((krovak[0]-dlz_x)**2+(krovak[0]-dlz_y)**2) 
+                    vzdialenost = sqrt((krovak[0]-dlz_x)**2+(krovak[1]-dlz_y)**2) 
                     print(vzdialenost)
