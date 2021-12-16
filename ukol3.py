@@ -34,7 +34,10 @@ with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojs
         data_adresy["features"][adresa]["k_najblizsiemu_kontajneru"] = pomocna_vzdialenost      ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
         pomocna_vzdialenost = None                                                              ### Pomocna vzdialenost sa vynuluje pre pracu s dalsou adresou
     
-    vzdialenosti = [adresa["k_najblizsiemu_kontajneru"] for adresa in data_adresy["features"]]
+    vzdialenosti = [adresa["k_najblizsiemu_kontajneru"] for adresa in data_adresy["features"]]  ### Premenna, do ktorej sa nacita zoznam vypocitanych najmensich vzdialenosti
     
-    print(f"Priemerna vzdialenost ku kontajnerom je: {round(mean(vzdialenosti),2)}")
-    print(f"Median vzdialenosti ku kontajnerom je: {int(median(vzdialenosti))}")
+    najdi_index = (vzdialenosti.index(max(vzdialenosti)))
+
+    print(f"Priemerna vzdialenost ku kontajnerom je: {round(mean(vzdialenosti),2)}.")            
+    print(f"Median vzdialenosti ku kontajnerom je: {int(median(vzdialenosti))}.")                ### Pouzitie kniznice statistics pre jednoduchy priemer a median
+    print("Najdalej od kontajneru vo vzdialenosti {max_vzdialenost} je vchod na adrese {adresa} {cd}".format(max_vzdialenost = max(vzdialenosti),adresa = data_adresy["features"][najdi_index]["properties"]["addr:street"],cd = data_adresy["features"][najdi_index]["properties"]["addr:housenumber"]))
