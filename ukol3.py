@@ -1,6 +1,6 @@
 import json
 from pyproj import Transformer
-import requests
+from statistics import mean, median
 from math import sqrt
 
 #def najmensia_vzdialenost():
@@ -33,5 +33,8 @@ with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojs
         
         data_adresy["features"][adresa]["k_najblizsiemu_kontajneru"] = pomocna_vzdialenost      ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
         pomocna_vzdialenost = None                                                              ### Pomocna vzdialenost sa vynuluje pre pracu s dalsou adresou
-
-        print(data_adresy["features"][adresa])
+    
+    vzdialenosti = [adresa["k_najblizsiemu_kontajneru"] for adresa in data_adresy["features"]]
+    
+    print(f"Priemerna vzdialenost ku kontajnerom je: {round(mean(vzdialenosti),2)}")
+    print(f"Median vzdialenosti ku kontajnerom je: {int(median(vzdialenosti))}")
