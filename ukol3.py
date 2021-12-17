@@ -35,17 +35,16 @@ with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojs
                     pomocna_vzdialenost = vzdialenost                                           ### Zachovanie najmensej vzdialenosti
 
             elif kontajner["properties"]["PRISTUP"] == "obyvatelům domu":
-                aktualna_adresa = "{ulica} {cislo}".format(ulica = adresa["properties"]["addr:street"], cislo = adresa["properties"]["addr:housenumber"])
-                if aktualna_adresa == kontajner['properties']['STATIONNAME']:
+                aktualna_adresa = "{ulica} {cislo}".format(ulica = adresa["properties"]["addr:street"], cislo = adresa["properties"]["addr:housenumber"])      ### Nacita sa sformatovana adresa
+                if aktualna_adresa == kontajner['properties']['STATIONNAME']:                   ### Porovna sa sformatovana adresa s polohou kontajneru, ak je zhoda, vzdialenosti sa priradi 0
                     pomocna_vzdialenost = 0
                 else:
                     pass
 
-        adresa["k_najblizsiemu_kontajneru"] = pomocna_vzdialenost      ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
+        adresa["k_najblizsiemu_kontajneru"] = pomocna_vzdialenost                               ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
         pomocna_vzdialenost = None                                                              ### Pomocna vzdialenost sa vynuluje pre pracu s dalsou adresou
     
     vzdialenosti = [adresa["k_najblizsiemu_kontajneru"] for adresa in data_adresy["features"]]  ### Premenna, do ktorej sa nacita zoznam vypocitanych najmensich vzdialenosti
-    print(vzdialenosti)
     najdi_index = (vzdialenosti.index(max(vzdialenosti)))                                       ### Najde sa index hodnoty s najvacsou vzdialenostou od kontajneru, aby sa tak nasla aj adresa miesta
 
     print(f"Priemerna vzdialenost ku kontajnerom je: {round(mean(vzdialenosti),1)}")            
