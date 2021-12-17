@@ -3,13 +3,11 @@ from pyproj import Transformer
 from statistics import mean, median
 from math import sqrt
 
-#def najmensia_vzdialenost():
-#    if pomocna_vzdialenost > vzdialenost:
-#        vzdialenost == pomocna_vzdialenost
-
 wgs2jtsk = Transformer.from_crs(4326,5514,always_xy=True)           ### Transformacia na S-JTSK
 vzdialenost = None                                                  
-pomocna_vzdialenost = None                                          ### Premenne, s ktorymi sa vypocita najmensia vzdialenost ku kontajneru
+pomocna_vzdialenost = None
+najblizsi_kontajner = None                                          ### Premenne, s ktorymi sa vypocita najmensia vzdialenost ku kontajneru
+do_geojsonu = []                                                    ### Zoznam, ktory posluzi na ulozenie adries do noveho suboru GEOJSON
 
 with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojson", encoding="utf-8") as kontajnery:
     
@@ -26,6 +24,8 @@ with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojs
         krovak = wgs2jtsk.transform(krovak_x,krovak_y)
         
         for kontajner in data_kontajnery["features"]:                               ### Cyklus pre prechadzanie kazdym kontajnerom
+            aktualny_kontajner = kontajner["properties"]["ID"]                      ### Nacita sa ID aktualne spracovaneho kontajneru
+            
             if kontajner["properties"]["PRISTUP"] == "volně":
                 dlz_x = kontajner["geometry"]["coordinates"][0]
                 dlz_y = kontajner["geometry"]["coordinates"][1]
@@ -33,6 +33,7 @@ with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojs
 
                 if pomocna_vzdialenost == None or pomocna_vzdialenost > vzdialenost:
                     pomocna_vzdialenost = vzdialenost                                           ### Zachovanie najmensej vzdialenosti
+                    najblizsi_kontajner = aktualny_kontajner                                    ### Zachova sa ID kontajneru, kde bola najmensia vzdialenost od vchodu
 
             elif kontajner["properties"]["PRISTUP"] == "obyvatelům domu":
                 aktualna_adresa = "{ulica} {cislo}".format(ulica = adresa["properties"]["addr:street"], cislo = adresa["properties"]["addr:housenumber"])      ### Nacita sa sformatovana adresa
@@ -42,7 +43,12 @@ with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojs
                     pass
 
         adresa["k_najblizsiemu_kontajneru"] = pomocna_vzdialenost                               ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
+        adresa["properties"]["kontajner"] = najblizsi_kontajner                                 ### Podobne sa k atributom adresy pripise novy kluc s ID najblizsieho kontajnera
         pomocna_vzdialenost = None                                                              ### Pomocna vzdialenost sa vynuluje pre pracu s dalsou adresou
+        do_geojsonu.append(adresa)                                                              ### Do zoznamu sa zavola spracovana adresa
+
+    with open("adresy_kontejnery.geojson","w", encoding="utf-8") as out:                        ### Zoznam s adresami sa hodi do novovytvoreneho suboru s jednoduchym formatovanim
+        json.dump(do_geojsonu, out, ensure_ascii = False, indent = 2)
     
     vzdialenosti = [adresa["k_najblizsiemu_kontajneru"] for adresa in data_adresy["features"]]  ### Premenna, do ktorej sa nacita zoznam vypocitanych najmensich vzdialenosti
     najdi_index = (vzdialenosti.index(max(vzdialenosti)))                                       ### Najde sa index hodnoty s najvacsou vzdialenostou od kontajneru, aby sa tak nasla aj adresa miesta
