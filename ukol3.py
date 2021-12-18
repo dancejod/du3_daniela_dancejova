@@ -80,7 +80,8 @@ try:
         
         if pomocna_vzdialenost > 10000:
             sys.exit("Najblizsi kontajner je dalej ako 10 km, program to nedava.")
-        adresa["k_najblizsiemu_kontajneru"] = round(pomocna_vzdialenost)                               ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
+
+        adresa["properties"]["ku_kontejneru_m"] = round(pomocna_vzdialenost)                               ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
         adresa["properties"]["kontejner"] = najblizsi_kontajner                                 ### Podobne sa k atributom adresy pripise novy kluc s ID najblizsieho kontajnera
         pomocna_vzdialenost = None                                                              ### Pomocna vzdialenost sa vynuluje pre pracu s dalsou adresou
         do_geojsonu.append(adresa)                                                              ### Do zoznamu sa zavola spracovana adresa
@@ -91,9 +92,10 @@ except KeyError:
 with open("adresy_kontejnery.geojson","w", encoding="utf-8") as out:                        ### Zoznam s adresami sa hodi do novovytvoreneho suboru s jednoduchym formatovanim
     json.dump(do_geojsonu, out, ensure_ascii = False, indent = 2)
         
-vzdialenosti = [adresa["k_najblizsiemu_kontajneru"] for adresa in data_adresy["features"]]  ### Premenna, do ktorej sa nacita zoznam vypocitanych najmensich vzdialenosti
+vzdialenosti = [adresa["properties"]["ku_kontejneru_m"] for adresa in data_adresy["features"]]  ### Premenna, do ktorej sa nacita zoznam vypocitanych najmensich vzdialenosti
 najdi_index = (vzdialenosti.index(max(vzdialenosti)))                                       ### Najde sa index hodnoty s najvacsou vzdialenostou od kontajneru, aby sa tak nasla aj adresa miesta
 
+print("Hotovo.")
 print(f"Priemerna vzdialenost ku kontajnerom je: {round(mean(vzdialenosti),1)} m")            
 print(f"Median vzdialenosti ku kontajnerom je: {round(median(vzdialenosti))}")                ### Pouzitie kniznice statistics pre jednoduchy priemer a median
 print("Najdalej od kontajneru vo vzdialenosti {max_vzdialenost} m je vchod na adrese {adresa} {cd}".format(max_vzdialenost = max(vzdialenosti),adresa = data_adresy["features"][najdi_index]["properties"]["addr:street"],cd = data_adresy["features"][najdi_index]["properties"]["addr:housenumber"]))

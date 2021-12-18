@@ -12,6 +12,7 @@
       "name": "Generální ředitelství HZS",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "25713949",
+      "ku_kontejneru_m": 866,
       "kontejner": 1205
     },
     "geometry": {
@@ -21,8 +22,7 @@
         50.0362817
       ]
     },
-    "id": "node/256090183",
-    "k_najblizsiemu_kontajneru": 866
+    "id": "node/256090183"
   },
   {
     "type": "Feature",
@@ -38,6 +38,7 @@
       "phone": "+420 774 332 808",
       "shop": "florist",
       "website": "http://kvetinarstvi-edera.cz/",
+      "ku_kontejneru_m": 1369,
       "kontejner": 1205
     },
     "geometry": {
@@ -47,8 +48,7 @@
         50.0330873
       ]
     },
-    "id": "node/256507969",
-    "k_najblizsiemu_kontajneru": 1369
+    "id": "node/256507969"
   },
   {
     "type": "Feature",
@@ -61,6 +61,7 @@
       "addr:streetnumber": "50",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828784",
+      "ku_kontejneru_m": 651,
       "kontejner": 1234
     },
     "geometry": {
@@ -70,8 +71,7 @@
         50.028825
       ]
     },
-    "id": "node/296442534",
-    "k_najblizsiemu_kontajneru": 651
+    "id": "node/296442534"
   },
   {
     "type": "Feature",
@@ -84,6 +84,7 @@
       "addr:streetnumber": "2",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21831793",
+      "ku_kontejneru_m": 212,
       "kontejner": 1217
     },
     "geometry": {
@@ -93,8 +94,7 @@
         50.0369056
       ]
     },
-    "id": "node/296442767",
-    "k_najblizsiemu_kontajneru": 212
+    "id": "node/296442767"
   },
   {
     "type": "Feature",
@@ -107,6 +107,7 @@
       "addr:streetnumber": "24",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21833869",
+      "ku_kontejneru_m": 104,
       "kontejner": 1213
     },
     "geometry": {
@@ -116,8 +117,7 @@
         50.0369234
       ]
     },
-    "id": "node/296442793",
-    "k_najblizsiemu_kontajneru": 104
+    "id": "node/296442793"
   },
   {
     "type": "Feature",
@@ -130,6 +130,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845425",
+      "ku_kontejneru_m": 1388,
       "kontejner": 1205
     },
     "geometry": {
@@ -139,8 +140,7 @@
         50.0306222
       ]
     },
-    "id": "node/296443009",
-    "k_najblizsiemu_kontajneru": 1388
+    "id": "node/296443009"
   },
   {
     "type": "Feature",
@@ -153,6 +153,7 @@
       "addr:streetnumber": "9",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828377",
+      "ku_kontejneru_m": 644,
       "kontejner": 1205
     },
     "geometry": {
@@ -162,8 +163,7 @@
         50.0316352
       ]
     },
-    "id": "node/296443118",
-    "k_najblizsiemu_kontajneru": 644
+    "id": "node/296443118"
   },
   {
     "type": "Feature",
@@ -176,6 +176,7 @@
       "addr:streetnumber": "67",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828938",
+      "ku_kontejneru_m": 576,
       "kontejner": 1205
     },
     "geometry": {
@@ -185,8 +186,7 @@
         50.0322066
       ]
     },
-    "id": "node/296443197",
-    "k_najblizsiemu_kontajneru": 576
+    "id": "node/296443197"
   },
   {
     "type": "Feature",
@@ -199,6 +199,7 @@
       "addr:streetnumber": "6",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21837031",
+      "ku_kontejneru_m": 610,
       "kontejner": 1205
     },
     "geometry": {
@@ -208,8 +209,7 @@
         50.0339738
       ]
     },
-    "id": "node/296443353",
-    "k_najblizsiemu_kontajneru": 610
+    "id": "node/296443353"
   },
   {
     "type": "Feature",
@@ -222,6 +222,7 @@
       "addr:streetnumber": "46",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21843236",
+      "ku_kontejneru_m": 542,
       "kontejner": 1178
     },
     "geometry": {
@@ -231,8 +232,7 @@
         50.0276426
       ]
     },
-    "id": "node/296443391",
-    "k_najblizsiemu_kontajneru": 542
+    "id": "node/296443391"
   },
   {
     "type": "Feature",
@@ -245,6 +245,7 @@
       "addr:streetnumber": "90",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21835900",
+      "ku_kontejneru_m": 744,
       "kontejner": 1234
     },
     "geometry": {
@@ -254,8 +255,7 @@
         50.0268952
       ]
     },
-    "id": "node/296443516",
-    "k_najblizsiemu_kontajneru": 744
+    "id": "node/296443516"
   },
   {
     "type": "Feature",
@@ -268,6 +268,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21833940",
+      "ku_kontejneru_m": 836,
       "kontejner": 1205
     },
     "geometry": {
@@ -277,8 +278,7 @@
         50.0394033
       ]
     },
-    "id": "node/296443611",
-    "k_najblizsiemu_kontajneru": 836
+    "id": "node/296443611"
   },
   {
     "type": "Feature",
@@ -291,6 +291,7 @@
       "addr:street": "Chodovecké náměstí",
       "addr:streetnumber": "4",
       "ref:ruian:addr": "21832731",
+      "ku_kontejneru_m": 1173,
       "kontejner": 1205
     },
     "geometry": {
@@ -300,8 +301,7 @@
         50.044155
       ]
     },
-    "id": "node/296443671",
-    "k_najblizsiemu_kontajneru": 1173
+    "id": "node/296443671"
   },
   {
     "type": "Feature",
@@ -314,6 +314,7 @@
       "addr:streetnumber": "34",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828687",
+      "ku_kontejneru_m": 575,
       "kontejner": 1234
     },
     "geometry": {
@@ -323,8 +324,7 @@
         50.0280042
       ]
     },
-    "id": "node/296443746",
-    "k_najblizsiemu_kontajneru": 575
+    "id": "node/296443746"
   },
   {
     "type": "Feature",
@@ -337,6 +337,7 @@
       "addr:streetnumber": "66",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21836051",
+      "ku_kontejneru_m": 651,
       "kontejner": 1234
     },
     "geometry": {
@@ -346,8 +347,7 @@
         50.0268378
       ]
     },
-    "id": "node/296443772",
-    "k_najblizsiemu_kontajneru": 651
+    "id": "node/296443772"
   },
   {
     "type": "Feature",
@@ -360,6 +360,7 @@
       "addr:street": "Kloknerova",
       "addr:streetnumber": "4",
       "ref:ruian:addr": "21847703",
+      "ku_kontejneru_m": 1015,
       "kontejner": 1205
     },
     "geometry": {
@@ -369,8 +370,7 @@
         50.0346468
       ]
     },
-    "id": "node/296443921",
-    "k_najblizsiemu_kontajneru": 1015
+    "id": "node/296443921"
   },
   {
     "type": "Feature",
@@ -383,6 +383,7 @@
       "addr:streetnumber": "60",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829080",
+      "ku_kontejneru_m": 677,
       "kontejner": 1234
     },
     "geometry": {
@@ -392,8 +393,7 @@
         50.0271136
       ]
     },
-    "id": "node/296443941",
-    "k_najblizsiemu_kontajneru": 677
+    "id": "node/296443941"
   },
   {
     "type": "Feature",
@@ -406,6 +406,7 @@
       "addr:streetnumber": "2",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21830738",
+      "ku_kontejneru_m": 85,
       "kontejner": 1192
     },
     "geometry": {
@@ -415,8 +416,7 @@
         50.036086
       ]
     },
-    "id": "node/296444031",
-    "k_najblizsiemu_kontajneru": 85
+    "id": "node/296444031"
   },
   {
     "type": "Feature",
@@ -429,6 +429,7 @@
       "addr:streetnumber": "24",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21840369",
+      "ku_kontejneru_m": 441,
       "kontejner": 1228
     },
     "geometry": {
@@ -438,8 +439,7 @@
         50.0288679
       ]
     },
-    "id": "node/296444039",
-    "k_najblizsiemu_kontajneru": 441
+    "id": "node/296444039"
   },
   {
     "type": "Feature",
@@ -456,6 +456,7 @@
       "addr:suburb": "Praha 11",
       "ref:ruian:addr": "21843384",
       "source:addr": "cuzk:ruian",
+      "ku_kontejneru_m": 588,
       "kontejner": 1205
     },
     "geometry": {
@@ -465,8 +466,7 @@
         50.0419513
       ]
     },
-    "id": "node/296444866",
-    "k_najblizsiemu_kontajneru": 588
+    "id": "node/296444866"
   },
   {
     "type": "Feature",
@@ -479,6 +479,7 @@
       "addr:streetnumber": "2",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829381",
+      "ku_kontejneru_m": 1205,
       "kontejner": 1205
     },
     "geometry": {
@@ -488,8 +489,7 @@
         50.0441193
       ]
     },
-    "id": "node/296444881",
-    "k_najblizsiemu_kontajneru": 1205
+    "id": "node/296444881"
   },
   {
     "type": "Feature",
@@ -502,6 +502,7 @@
       "addr:streetnumber": "7",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828385",
+      "ku_kontejneru_m": 640,
       "kontejner": 1205
     },
     "geometry": {
@@ -511,8 +512,7 @@
         50.031685
       ]
     },
-    "id": "node/296444931",
-    "k_najblizsiemu_kontajneru": 640
+    "id": "node/296444931"
   },
   {
     "type": "Feature",
@@ -525,6 +525,7 @@
       "addr:streetnumber": "33",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21838194",
+      "ku_kontejneru_m": 586,
       "kontejner": 1234
     },
     "geometry": {
@@ -534,8 +535,7 @@
         50.0277932
       ]
     },
-    "id": "node/296445082",
-    "k_najblizsiemu_kontajneru": 586
+    "id": "node/296445082"
   },
   {
     "type": "Feature",
@@ -548,6 +548,7 @@
       "addr:streetnumber": "52",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21827362",
+      "ku_kontejneru_m": 646,
       "kontejner": 1205
     },
     "geometry": {
@@ -557,8 +558,7 @@
         50.0315333
       ]
     },
-    "id": "node/296445099",
-    "k_najblizsiemu_kontajneru": 646
+    "id": "node/296445099"
   },
   {
     "type": "Feature",
@@ -570,6 +570,7 @@
       "addr:street": "Stýblova",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21831947",
+      "ku_kontejneru_m": 198,
       "kontejner": 1214
     },
     "geometry": {
@@ -579,8 +580,7 @@
         50.035403
       ]
     },
-    "id": "node/296445105",
-    "k_najblizsiemu_kontajneru": 198
+    "id": "node/296445105"
   },
   {
     "type": "Feature",
@@ -593,6 +593,7 @@
       "addr:streetnumber": "3",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21846651",
+      "ku_kontejneru_m": 1605,
       "kontejner": 1205
     },
     "geometry": {
@@ -602,8 +603,7 @@
         50.0336043
       ]
     },
-    "id": "node/296445290",
-    "k_najblizsiemu_kontajneru": 1605
+    "id": "node/296445290"
   },
   {
     "type": "Feature",
@@ -616,6 +616,7 @@
       "addr:streetnumber": "11",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845271",
+      "ku_kontejneru_m": 1429,
       "kontejner": 1205
     },
     "geometry": {
@@ -625,8 +626,7 @@
         50.0293073
       ]
     },
-    "id": "node/296445311",
-    "k_najblizsiemu_kontajneru": 1429
+    "id": "node/296445311"
   },
   {
     "type": "Feature",
@@ -639,6 +639,7 @@
       "addr:streetnumber": "14",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21834768",
+      "ku_kontejneru_m": 635,
       "kontejner": 1234
     },
     "geometry": {
@@ -648,8 +649,7 @@
         50.0277709
       ]
     },
-    "id": "node/296445408",
-    "k_najblizsiemu_kontajneru": 635
+    "id": "node/296445408"
   },
   {
     "type": "Feature",
@@ -662,6 +662,7 @@
       "addr:streetnumber": "76",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21833711",
+      "ku_kontejneru_m": 857,
       "kontejner": 1234
     },
     "geometry": {
@@ -671,8 +672,7 @@
         50.0280468
       ]
     },
-    "id": "node/296445488",
-    "k_najblizsiemu_kontajneru": 857
+    "id": "node/296445488"
   },
   {
     "type": "Feature",
@@ -685,6 +685,7 @@
       "addr:streetnumber": "11",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21827206",
+      "ku_kontejneru_m": 438,
       "kontejner": 1214
     },
     "geometry": {
@@ -694,8 +695,7 @@
         50.033523
       ]
     },
-    "id": "node/296445652",
-    "k_najblizsiemu_kontajneru": 438
+    "id": "node/296445652"
   },
   {
     "type": "Feature",
@@ -708,6 +708,7 @@
       "addr:streetnumber": "7",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21846502",
+      "ku_kontejneru_m": 1447,
       "kontejner": 1205
     },
     "geometry": {
@@ -717,8 +718,7 @@
         50.0338248
       ]
     },
-    "id": "node/296445699",
-    "k_najblizsiemu_kontajneru": 1447
+    "id": "node/296445699"
   },
   {
     "type": "Feature",
@@ -731,6 +731,7 @@
       "addr:street": "Konstantinova",
       "addr:streetnumber": "48",
       "ref:ruian:addr": "21840512",
+      "ku_kontejneru_m": 284,
       "kontejner": 1228
     },
     "geometry": {
@@ -740,8 +741,7 @@
         50.0290498
       ]
     },
-    "id": "node/296445714",
-    "k_najblizsiemu_kontajneru": 284
+    "id": "node/296445714"
   },
   {
     "type": "Feature",
@@ -754,6 +754,7 @@
       "addr:streetnumber": "59",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21831645",
+      "ku_kontejneru_m": 40,
       "kontejner": 1226
     },
     "geometry": {
@@ -763,8 +764,7 @@
         50.0349979
       ]
     },
-    "id": "node/296445736",
-    "k_najblizsiemu_kontajneru": 40
+    "id": "node/296445736"
   },
   {
     "type": "Feature",
@@ -777,6 +777,7 @@
       "addr:streetnumber": "21",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21833036",
+      "ku_kontejneru_m": 119,
       "kontejner": 1192
     },
     "geometry": {
@@ -786,8 +787,7 @@
         50.0366169
       ]
     },
-    "id": "node/296445943",
-    "k_najblizsiemu_kontajneru": 119
+    "id": "node/296445943"
   },
   {
     "type": "Feature",
@@ -800,6 +800,7 @@
       "addr:streetnumber": "15",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829233",
+      "ku_kontejneru_m": 634,
       "kontejner": 1234
     },
     "geometry": {
@@ -809,8 +810,7 @@
         50.0274562
       ]
     },
-    "id": "node/296445978",
-    "k_najblizsiemu_kontajneru": 634
+    "id": "node/296445978"
   },
   {
     "type": "Feature",
@@ -823,6 +823,7 @@
       "addr:streetnumber": "6",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21844593",
+      "ku_kontejneru_m": 1295,
       "kontejner": 1205
     },
     "geometry": {
@@ -832,8 +833,7 @@
         50.027089
       ]
     },
-    "id": "node/296445983",
-    "k_najblizsiemu_kontajneru": 1295
+    "id": "node/296445983"
   },
   {
     "type": "Feature",
@@ -846,6 +846,7 @@
       "addr:streetnumber": "17",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21843538",
+      "ku_kontejneru_m": 1259,
       "kontejner": 1190
     },
     "geometry": {
@@ -855,8 +856,7 @@
         50.0241236
       ]
     },
-    "id": "node/296446160",
-    "k_najblizsiemu_kontajneru": 1259
+    "id": "node/296446160"
   },
   {
     "type": "Feature",
@@ -869,6 +869,7 @@
       "addr:streetnumber": "2",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21842621",
+      "ku_kontejneru_m": 390,
       "kontejner": 1205
     },
     "geometry": {
@@ -878,8 +879,7 @@
         50.0339109
       ]
     },
-    "id": "node/296446291",
-    "k_najblizsiemu_kontajneru": 390
+    "id": "node/296446291"
   },
   {
     "type": "Feature",
@@ -892,6 +892,7 @@
       "addr:streetnumber": "20",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21830053",
+      "ku_kontejneru_m": 251,
       "kontejner": 1213
     },
     "geometry": {
@@ -901,8 +902,7 @@
         50.0351534
       ]
     },
-    "id": "node/296446311",
-    "k_najblizsiemu_kontajneru": 251
+    "id": "node/296446311"
   },
   {
     "type": "Feature",
@@ -915,6 +915,7 @@
       "addr:streetnumber": "4",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21839671",
+      "ku_kontejneru_m": 76,
       "kontejner": 1235
     },
     "geometry": {
@@ -924,8 +925,7 @@
         50.0221101
       ]
     },
-    "id": "node/296446345",
-    "k_najblizsiemu_kontajneru": 76
+    "id": "node/296446345"
   },
   {
     "type": "Feature",
@@ -938,6 +938,7 @@
       "addr:streetnumber": "13",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21841268",
+      "ku_kontejneru_m": 76,
       "kontejner": 1227
     },
     "geometry": {
@@ -947,8 +948,7 @@
         50.0306868
       ]
     },
-    "id": "node/296446421",
-    "k_najblizsiemu_kontajneru": 76
+    "id": "node/296446421"
   },
   {
     "type": "Feature",
@@ -961,6 +961,7 @@
       "addr:street": "7. května",
       "addr:streetnumber": "9",
       "ref:ruian:addr": "21836205",
+      "ku_kontejneru_m": 614,
       "kontejner": 1234
     },
     "geometry": {
@@ -970,8 +971,7 @@
         50.0271886
       ]
     },
-    "id": "node/296446546",
-    "k_najblizsiemu_kontajneru": 614
+    "id": "node/296446546"
   },
   {
     "type": "Feature",
@@ -984,6 +984,7 @@
       "addr:streetnumber": "96",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21834610",
+      "ku_kontejneru_m": 974,
       "kontejner": 1205
     },
     "geometry": {
@@ -993,8 +994,7 @@
         50.0287122
       ]
     },
-    "id": "node/296446684",
-    "k_najblizsiemu_kontajneru": 974
+    "id": "node/296446684"
   },
   {
     "type": "Feature",
@@ -1007,6 +1007,7 @@
       "addr:streetnumber": "10",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21830436",
+      "ku_kontejneru_m": 853,
       "kontejner": 1205
     },
     "geometry": {
@@ -1016,8 +1017,7 @@
         50.0296879
       ]
     },
-    "id": "node/296446759",
-    "k_najblizsiemu_kontajneru": 853
+    "id": "node/296446759"
   },
   {
     "type": "Feature",
@@ -1030,6 +1030,7 @@
       "addr:streetnumber": "20",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21844909",
+      "ku_kontejneru_m": 94,
       "kontejner": 1234
     },
     "geometry": {
@@ -1039,8 +1040,7 @@
         50.0255408
       ]
     },
-    "id": "node/296446988",
-    "k_najblizsiemu_kontajneru": 94
+    "id": "node/296446988"
   },
   {
     "type": "Feature",
@@ -1053,6 +1053,7 @@
       "addr:streetnumber": "19",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21839522",
+      "ku_kontejneru_m": 439,
       "kontejner": 1235
     },
     "geometry": {
@@ -1062,8 +1063,7 @@
         50.0237264
       ]
     },
-    "id": "node/296447079",
-    "k_najblizsiemu_kontajneru": 439
+    "id": "node/296447079"
   },
   {
     "type": "Feature",
@@ -1076,6 +1076,7 @@
       "addr:street": "Babákova",
       "addr:streetnumber": "8",
       "ref:ruian:addr": "21847100",
+      "ku_kontejneru_m": 996,
       "kontejner": 1205
     },
     "geometry": {
@@ -1085,8 +1086,7 @@
         50.0367154
       ]
     },
-    "id": "node/296447114",
-    "k_najblizsiemu_kontajneru": 996
+    "id": "node/296447114"
   },
   {
     "type": "Feature",
@@ -1099,6 +1099,7 @@
       "addr:street": "Malebná",
       "addr:streetnumber": "25",
       "ref:ruian:addr": "30482976",
+      "ku_kontejneru_m": 763,
       "kontejner": 1234
     },
     "geometry": {
@@ -1108,8 +1109,7 @@
         50.0264809
       ]
     },
-    "id": "node/296447267",
-    "k_najblizsiemu_kontajneru": 763
+    "id": "node/296447267"
   },
   {
     "type": "Feature",
@@ -1121,6 +1121,7 @@
       "addr:street": "Lažanského",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21827478",
+      "ku_kontejneru_m": 860,
       "kontejner": 1205
     },
     "geometry": {
@@ -1130,8 +1131,7 @@
         50.0296241
       ]
     },
-    "id": "node/296447328",
-    "k_najblizsiemu_kontajneru": 860
+    "id": "node/296447328"
   },
   {
     "type": "Feature",
@@ -1144,6 +1144,7 @@
       "addr:streetnumber": "44",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21843244",
+      "ku_kontejneru_m": 553,
       "kontejner": 1178
     },
     "geometry": {
@@ -1153,8 +1154,7 @@
         50.0275393
       ]
     },
-    "id": "node/296447682",
-    "k_najblizsiemu_kontajneru": 553
+    "id": "node/296447682"
   },
   {
     "type": "Feature",
@@ -1167,6 +1167,7 @@
       "addr:streetnumber": "6",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21830207",
+      "ku_kontejneru_m": 82,
       "kontejner": 1226
     },
     "geometry": {
@@ -1176,8 +1177,7 @@
         50.0353409
       ]
     },
-    "id": "node/296447690",
-    "k_najblizsiemu_kontajneru": 82
+    "id": "node/296447690"
   },
   {
     "type": "Feature",
@@ -1190,6 +1190,7 @@
       "addr:street": "7. května",
       "addr:streetnumber": "6",
       "ref:ruian:addr": "21836361",
+      "ku_kontejneru_m": 578,
       "kontejner": 1234
     },
     "geometry": {
@@ -1199,8 +1200,7 @@
         50.0269898
       ]
     },
-    "id": "node/296447749",
-    "k_najblizsiemu_kontajneru": 578
+    "id": "node/296447749"
   },
   {
     "type": "Feature",
@@ -1212,6 +1212,7 @@
       "addr:street": "Donovalská",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21834091",
+      "ku_kontejneru_m": 117,
       "kontejner": 1192
     },
     "geometry": {
@@ -1221,8 +1222,7 @@
         50.0359475
       ]
     },
-    "id": "node/296447788",
-    "k_najblizsiemu_kontajneru": 117
+    "id": "node/296447788"
   },
   {
     "type": "Feature",
@@ -1235,6 +1235,7 @@
       "addr:street": "V jezírkách",
       "addr:streetnumber": "12",
       "ref:ruian:addr": "21840962",
+      "ku_kontejneru_m": 266,
       "kontejner": 1177
     },
     "geometry": {
@@ -1244,8 +1245,7 @@
         50.0265627
       ]
     },
-    "id": "node/296447905",
-    "k_najblizsiemu_kontajneru": 266
+    "id": "node/296447905"
   },
   {
     "type": "Feature",
@@ -1258,6 +1258,7 @@
       "addr:streetnumber": "6",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829977",
+      "ku_kontejneru_m": 293,
       "kontejner": 1214
     },
     "geometry": {
@@ -1267,8 +1268,7 @@
         50.0343725
       ]
     },
-    "id": "node/296447931",
-    "k_najblizsiemu_kontajneru": 293
+    "id": "node/296447931"
   },
   {
     "type": "Feature",
@@ -1281,6 +1281,7 @@
       "addr:streetnumber": "41",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21830886",
+      "ku_kontejneru_m": 788,
       "kontejner": 1234
     },
     "geometry": {
@@ -1290,8 +1291,7 @@
         50.0284028
       ]
     },
-    "id": "node/296447964",
-    "k_najblizsiemu_kontajneru": 788
+    "id": "node/296447964"
   },
   {
     "type": "Feature",
@@ -1304,6 +1304,7 @@
       "addr:streetnumber": "42",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21833184",
+      "ku_kontejneru_m": 753,
       "kontejner": 1205
     },
     "geometry": {
@@ -1313,8 +1314,7 @@
         50.0307365
       ]
     },
-    "id": "node/296448026",
-    "k_najblizsiemu_kontajneru": 753
+    "id": "node/296448026"
   },
   {
     "type": "Feature",
@@ -1327,6 +1327,7 @@
       "addr:streetnumber": "91",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21835551",
+      "ku_kontejneru_m": 812,
       "kontejner": 1234
     },
     "geometry": {
@@ -1336,8 +1337,7 @@
         50.0263642
       ]
     },
-    "id": "node/296448035",
-    "k_najblizsiemu_kontajneru": 812
+    "id": "node/296448035"
   },
   {
     "type": "Feature",
@@ -1350,6 +1350,7 @@
       "addr:streetnumber": "35",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21838020",
+      "ku_kontejneru_m": 230,
       "kontejner": 1218
     },
     "geometry": {
@@ -1359,8 +1360,7 @@
         50.0342848
       ]
     },
-    "id": "node/296448157",
-    "k_najblizsiemu_kontajneru": 230
+    "id": "node/296448157"
   },
   {
     "type": "Feature",
@@ -1373,6 +1373,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21836353",
+      "ku_kontejneru_m": 665,
       "kontejner": 1205
     },
     "geometry": {
@@ -1382,8 +1383,7 @@
         50.0331967
       ]
     },
-    "id": "node/296448271",
-    "k_najblizsiemu_kontajneru": 665
+    "id": "node/296448271"
   },
   {
     "type": "Feature",
@@ -1396,6 +1396,7 @@
       "addr:street": "Babákova",
       "addr:streetnumber": "10",
       "ref:ruian:addr": "21847118",
+      "ku_kontejneru_m": 1010,
       "kontejner": 1205
     },
     "geometry": {
@@ -1405,8 +1406,7 @@
         50.0367891
       ]
     },
-    "id": "node/296448614",
-    "k_najblizsiemu_kontajneru": 1010
+    "id": "node/296448614"
   },
   {
     "type": "Feature",
@@ -1419,6 +1419,7 @@
       "addr:streetnumber": "34",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21837180",
+      "ku_kontejneru_m": 465,
       "kontejner": 1205
     },
     "geometry": {
@@ -1428,8 +1429,7 @@
         50.0349499
       ]
     },
-    "id": "node/296448877",
-    "k_najblizsiemu_kontajneru": 465
+    "id": "node/296448877"
   },
   {
     "type": "Feature",
@@ -1442,6 +1442,7 @@
       "addr:streetnumber": "7",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21844071",
+      "ku_kontejneru_m": 1189,
       "kontejner": 1190
     },
     "geometry": {
@@ -1451,8 +1452,7 @@
         50.0223173
       ]
     },
-    "id": "node/296448943",
-    "k_najblizsiemu_kontajneru": 1189
+    "id": "node/296448943"
   },
   {
     "type": "Feature",
@@ -1465,6 +1465,7 @@
       "addr:streetnumber": "12",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21839379",
+      "ku_kontejneru_m": 73,
       "kontejner": 1220
     },
     "geometry": {
@@ -1474,8 +1475,7 @@
         50.0329903
       ]
     },
-    "id": "node/296449078",
-    "k_najblizsiemu_kontajneru": 73
+    "id": "node/296449078"
   },
   {
     "type": "Feature",
@@ -1488,6 +1488,7 @@
       "addr:streetnumber": "23",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21830282",
+      "ku_kontejneru_m": 243,
       "kontejner": 1226
     },
     "geometry": {
@@ -1497,8 +1498,7 @@
         50.0358633
       ]
     },
-    "id": "node/296449222",
-    "k_najblizsiemu_kontajneru": 243
+    "id": "node/296449222"
   },
   {
     "type": "Feature",
@@ -1511,6 +1511,7 @@
       "addr:street": "Dědinova",
       "addr:streetnumber": "22",
       "ref:ruian:addr": "21845573",
+      "ku_kontejneru_m": 1235,
       "kontejner": 1205
     },
     "geometry": {
@@ -1520,8 +1521,7 @@
         50.0321666
       ]
     },
-    "id": "node/296449243",
-    "k_najblizsiemu_kontajneru": 1235
+    "id": "node/296449243"
   },
   {
     "type": "Feature",
@@ -1534,6 +1534,7 @@
       "addr:streetnumber": "2",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21844755",
+      "ku_kontejneru_m": 1433,
       "kontejner": 1205
     },
     "geometry": {
@@ -1543,8 +1544,7 @@
         50.026278
       ]
     },
-    "id": "node/296449258",
-    "k_najblizsiemu_kontajneru": 1433
+    "id": "node/296449258"
   },
   {
     "type": "Feature",
@@ -1557,6 +1557,7 @@
       "addr:streetnumber": "38",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21844224",
+      "ku_kontejneru_m": 123,
       "kontejner": 1218
     },
     "geometry": {
@@ -1566,8 +1567,7 @@
         50.03399
       ]
     },
-    "id": "node/296449692",
-    "k_najblizsiemu_kontajneru": 123
+    "id": "node/296449692"
   },
   {
     "type": "Feature",
@@ -1580,6 +1580,7 @@
       "addr:streetnumber": "14",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21835705",
+      "ku_kontejneru_m": 471,
       "kontejner": 1234
     },
     "geometry": {
@@ -1589,8 +1590,7 @@
         50.0266979
       ]
     },
-    "id": "node/296449953",
-    "k_najblizsiemu_kontajneru": 471
+    "id": "node/296449953"
   },
   {
     "type": "Feature",
@@ -1603,6 +1603,7 @@
       "addr:streetnumber": "11",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828521",
+      "ku_kontejneru_m": 659,
       "kontejner": 1205
     },
     "geometry": {
@@ -1612,8 +1613,7 @@
         50.0314858
       ]
     },
-    "id": "node/296450007",
-    "k_najblizsiemu_kontajneru": 659
+    "id": "node/296450007"
   },
   {
     "type": "Feature",
@@ -1626,6 +1626,7 @@
       "addr:streetnumber": "3",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21837724",
+      "ku_kontejneru_m": 316,
       "kontejner": 1205
     },
     "geometry": {
@@ -1635,8 +1636,7 @@
         50.0349108
       ]
     },
-    "id": "node/296450307",
-    "k_najblizsiemu_kontajneru": 316
+    "id": "node/296450307"
   },
   {
     "type": "Feature",
@@ -1649,6 +1649,7 @@
       "addr:streetnumber": "1",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21831343",
+      "ku_kontejneru_m": 215,
       "kontejner": 1213
     },
     "geometry": {
@@ -1658,8 +1659,7 @@
         50.0350634
       ]
     },
-    "id": "node/296450335",
-    "k_najblizsiemu_kontajneru": 215
+    "id": "node/296450335"
   },
   {
     "type": "Feature",
@@ -1672,6 +1672,7 @@
       "addr:streetnumber": "17",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21841047",
+      "ku_kontejneru_m": 478,
       "kontejner": 1176
     },
     "geometry": {
@@ -1681,8 +1682,7 @@
         50.025406
       ]
     },
-    "id": "node/296450501",
-    "k_najblizsiemu_kontajneru": 478
+    "id": "node/296450501"
   },
   {
     "type": "Feature",
@@ -1695,6 +1695,7 @@
       "addr:streetnumber": "23",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21843929",
+      "ku_kontejneru_m": 1097,
       "kontejner": 1190
     },
     "geometry": {
@@ -1704,8 +1705,7 @@
         50.0233618
       ]
     },
-    "id": "node/296450689",
-    "k_najblizsiemu_kontajneru": 1097
+    "id": "node/296450689"
   },
   {
     "type": "Feature",
@@ -1718,6 +1718,7 @@
       "addr:streetnumber": "41",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21831262",
+      "ku_kontejneru_m": 818,
       "kontejner": 1234
     },
     "geometry": {
@@ -1727,8 +1728,7 @@
         50.0294934
       ]
     },
-    "id": "node/296450740",
-    "k_najblizsiemu_kontajneru": 818
+    "id": "node/296450740"
   },
   {
     "type": "Feature",
@@ -1741,6 +1741,7 @@
       "addr:streetnumber": "3",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21838933",
+      "ku_kontejneru_m": 589,
       "kontejner": 1176
     },
     "geometry": {
@@ -1750,8 +1751,7 @@
         50.0240976
       ]
     },
-    "id": "node/296450822",
-    "k_najblizsiemu_kontajneru": 589
+    "id": "node/296450822"
   },
   {
     "type": "Feature",
@@ -1764,6 +1764,7 @@
       "addr:streetnumber": "60",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21834393",
+      "ku_kontejneru_m": 803,
       "kontejner": 1205
     },
     "geometry": {
@@ -1773,8 +1774,7 @@
         50.0306411
       ]
     },
-    "id": "node/296450961",
-    "k_najblizsiemu_kontajneru": 803
+    "id": "node/296450961"
   },
   {
     "type": "Feature",
@@ -1788,6 +1788,7 @@
       "addr:streetnumber": "10",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845794",
+      "ku_kontejneru_m": 1329,
       "kontejner": 1205
     },
     "geometry": {
@@ -1797,8 +1798,7 @@
         50.0324295
       ]
     },
-    "id": "node/296451088",
-    "k_najblizsiemu_kontajneru": 1329
+    "id": "node/296451088"
   },
   {
     "type": "Feature",
@@ -1811,6 +1811,7 @@
       "addr:streetnumber": "74",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21835462",
+      "ku_kontejneru_m": 858,
       "kontejner": 1205
     },
     "geometry": {
@@ -1820,8 +1821,7 @@
         50.0299657
       ]
     },
-    "id": "node/296451108",
-    "k_najblizsiemu_kontajneru": 858
+    "id": "node/296451108"
   },
   {
     "type": "Feature",
@@ -1834,6 +1834,7 @@
       "addr:streetnumber": "10",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21835292",
+      "ku_kontejneru_m": 668,
       "kontejner": 1205
     },
     "geometry": {
@@ -1843,8 +1844,7 @@
         50.0330959
       ]
     },
-    "id": "node/296451418",
-    "k_najblizsiemu_kontajneru": 668
+    "id": "node/296451418"
   },
   {
     "type": "Feature",
@@ -1857,6 +1857,7 @@
       "addr:streetnumber": "2",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21839972",
+      "ku_kontejneru_m": 141,
       "kontejner": 1190
     },
     "geometry": {
@@ -1866,8 +1867,7 @@
         50.023393
       ]
     },
-    "id": "node/296451447",
-    "k_najblizsiemu_kontajneru": 141
+    "id": "node/296451447"
   },
   {
     "type": "Feature",
@@ -1879,6 +1879,7 @@
       "addr:street": "Dobrovolského",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21832501",
+      "ku_kontejneru_m": 181,
       "kontejner": 1213
     },
     "geometry": {
@@ -1888,8 +1889,7 @@
         50.0354894
       ]
     },
-    "id": "node/296451701",
-    "k_najblizsiemu_kontajneru": 181
+    "id": "node/296451701"
   },
   {
     "type": "Feature",
@@ -1902,6 +1902,7 @@
       "addr:street": "Majerského",
       "addr:streetnumber": "5",
       "ref:ruian:addr": "21846103",
+      "ku_kontejneru_m": 144,
       "kontejner": 1216
     },
     "geometry": {
@@ -1911,8 +1912,7 @@
         50.0388073
       ]
     },
-    "id": "node/296451809",
-    "k_najblizsiemu_kontajneru": 144
+    "id": "node/296451809"
   },
   {
     "type": "Feature",
@@ -1925,6 +1925,7 @@
       "addr:streetnumber": "7",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21832161",
+      "ku_kontejneru_m": 526,
       "kontejner": 1205
     },
     "geometry": {
@@ -1934,8 +1935,7 @@
         50.0338409
       ]
     },
-    "id": "node/296451860",
-    "k_najblizsiemu_kontajneru": 526
+    "id": "node/296451860"
   },
   {
     "type": "Feature",
@@ -1947,6 +1947,7 @@
       "addr:street": "Brechtova",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21834245",
+      "ku_kontejneru_m": 58,
       "kontejner": 1192
     },
     "geometry": {
@@ -1956,8 +1957,7 @@
         50.0368246
       ]
     },
-    "id": "node/296453475",
-    "k_najblizsiemu_kontajneru": 58
+    "id": "node/296453475"
   },
   {
     "type": "Feature",
@@ -1970,6 +1970,7 @@
       "addr:streetnumber": "10",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21842698",
+      "ku_kontejneru_m": 292,
       "kontejner": 1205
     },
     "geometry": {
@@ -1979,8 +1980,7 @@
         50.0347231
       ]
     },
-    "id": "node/296453531",
-    "k_najblizsiemu_kontajneru": 292
+    "id": "node/296453531"
   },
   {
     "type": "Feature",
@@ -1993,6 +1993,7 @@
       "addr:streetnumber": "11",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21840733",
+      "ku_kontejneru_m": 151,
       "kontejner": 1177
     },
     "geometry": {
@@ -2002,8 +2003,7 @@
         50.0274336
       ]
     },
-    "id": "node/296453609",
-    "k_najblizsiemu_kontajneru": 151
+    "id": "node/296453609"
   },
   {
     "type": "Feature",
@@ -2016,6 +2016,7 @@
       "addr:streetnumber": "3",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21842027",
+      "ku_kontejneru_m": 177,
       "kontejner": 1218
     },
     "geometry": {
@@ -2025,8 +2026,7 @@
         50.0326654
       ]
     },
-    "id": "node/296454196",
-    "k_najblizsiemu_kontajneru": 177
+    "id": "node/296454196"
   },
   {
     "type": "Feature",
@@ -2039,6 +2039,7 @@
       "addr:streetnumber": "12",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845051",
+      "ku_kontejneru_m": 1288,
       "kontejner": 1205
     },
     "geometry": {
@@ -2048,8 +2049,7 @@
         50.0296934
       ]
     },
-    "id": "node/296454313",
-    "k_najblizsiemu_kontajneru": 1288
+    "id": "node/296454313"
   },
   {
     "type": "Feature",
@@ -2062,6 +2062,7 @@
       "addr:streetnumber": "14",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829829",
+      "ku_kontejneru_m": 834,
       "kontejner": 1205
     },
     "geometry": {
@@ -2071,8 +2072,7 @@
         50.0298479
       ]
     },
-    "id": "node/296455097",
-    "k_najblizsiemu_kontajneru": 834
+    "id": "node/296455097"
   },
   {
     "type": "Feature",
@@ -2085,6 +2085,7 @@
       "addr:streetnumber": "58",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21833338",
+      "ku_kontejneru_m": 907,
       "kontejner": 1205
     },
     "geometry": {
@@ -2094,8 +2095,7 @@
         50.0292072
       ]
     },
-    "id": "node/296455247",
-    "k_najblizsiemu_kontajneru": 907
+    "id": "node/296455247"
   },
   {
     "type": "Feature",
@@ -2108,6 +2108,7 @@
       "addr:streetnumber": "24",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21844283",
+      "ku_kontejneru_m": 1386,
       "kontejner": 1205
     },
     "geometry": {
@@ -2117,8 +2118,7 @@
         50.0260293
       ]
     },
-    "id": "node/296455346",
-    "k_najblizsiemu_kontajneru": 1386
+    "id": "node/296455346"
   },
   {
     "type": "Feature",
@@ -2131,6 +2131,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21840881",
+      "ku_kontejneru_m": 131,
       "kontejner": 1177
     },
     "geometry": {
@@ -2140,8 +2141,7 @@
         50.0266693
       ]
     },
-    "id": "node/296455545",
-    "k_najblizsiemu_kontajneru": 131
+    "id": "node/296455545"
   },
   {
     "type": "Feature",
@@ -2154,6 +2154,7 @@
       "addr:streetnumber": "36",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21837716",
+      "ku_kontejneru_m": 829,
       "kontejner": 1218
     },
     "geometry": {
@@ -2163,8 +2164,7 @@
         50.0299757
       ]
     },
-    "id": "node/296455594",
-    "k_najblizsiemu_kontajneru": 829
+    "id": "node/296455594"
   },
   {
     "type": "Feature",
@@ -2177,6 +2177,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21841560",
+      "ku_kontejneru_m": 76,
       "kontejner": 1228
     },
     "geometry": {
@@ -2186,8 +2187,7 @@
         50.0316492
       ]
     },
-    "id": "node/296455878",
-    "k_najblizsiemu_kontajneru": 76
+    "id": "node/296455878"
   },
   {
     "type": "Feature",
@@ -2200,6 +2200,7 @@
       "addr:streetnumber": "9",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21836841",
+      "ku_kontejneru_m": 174,
       "kontejner": 6096
     },
     "geometry": {
@@ -2209,8 +2210,7 @@
         50.0376227
       ]
     },
-    "id": "node/296456033",
-    "k_najblizsiemu_kontajneru": 174
+    "id": "node/296456033"
   },
   {
     "type": "Feature",
@@ -2223,6 +2223,7 @@
       "addr:street": "Jažlovická",
       "addr:streetnumber": "32",
       "ref:ruian:addr": "21838704",
+      "ku_kontejneru_m": 668,
       "kontejner": 1189
     },
     "geometry": {
@@ -2232,8 +2233,7 @@
         50.0263821
       ]
     },
-    "id": "node/296456089",
-    "k_najblizsiemu_kontajneru": 668
+    "id": "node/296456089"
   },
   {
     "type": "Feature",
@@ -2246,6 +2246,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21838551",
+      "ku_kontejneru_m": 589,
       "kontejner": 1177
     },
     "geometry": {
@@ -2255,8 +2256,7 @@
         50.0259631
       ]
     },
-    "id": "node/296456311",
-    "k_najblizsiemu_kontajneru": 589
+    "id": "node/296456311"
   },
   {
     "type": "Feature",
@@ -2269,6 +2269,7 @@
       "addr:streetnumber": "11",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21847258",
+      "ku_kontejneru_m": 1095,
       "kontejner": 1205
     },
     "geometry": {
@@ -2278,8 +2279,7 @@
         50.0353704
       ]
     },
-    "id": "node/296456438",
-    "k_najblizsiemu_kontajneru": 1095
+    "id": "node/296456438"
   },
   {
     "type": "Feature",
@@ -2292,6 +2292,7 @@
       "addr:streetnumber": "5",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829675",
+      "ku_kontejneru_m": 215,
       "kontejner": 1205
     },
     "geometry": {
@@ -2301,8 +2302,7 @@
         50.0357486
       ]
     },
-    "id": "node/296456617",
-    "k_najblizsiemu_kontajneru": 215
+    "id": "node/296456617"
   },
   {
     "type": "Feature",
@@ -2315,6 +2315,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21841713",
+      "ku_kontejneru_m": 99,
       "kontejner": 1228
     },
     "geometry": {
@@ -2324,8 +2325,7 @@
         50.030287
       ]
     },
-    "id": "node/296456659",
-    "k_najblizsiemu_kontajneru": 99
+    "id": "node/296456659"
   },
   {
     "type": "Feature",
@@ -2338,6 +2338,7 @@
       "addr:streetnumber": "5",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21833486",
+      "ku_kontejneru_m": 99,
       "kontejner": 1226
     },
     "geometry": {
@@ -2347,8 +2348,7 @@
         50.0349922
       ]
     },
-    "id": "node/296457134",
-    "k_najblizsiemu_kontajneru": 99
+    "id": "node/296457134"
   },
   {
     "type": "Feature",
@@ -2361,6 +2361,7 @@
       "addr:streetnumber": "36",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21842175",
+      "ku_kontejneru_m": 37,
       "kontejner": 1214
     },
     "geometry": {
@@ -2370,8 +2371,7 @@
         50.0371208
       ]
     },
-    "id": "node/296457177",
-    "k_najblizsiemu_kontajneru": 37
+    "id": "node/296457177"
   },
   {
     "type": "Feature",
@@ -2384,6 +2384,7 @@
       "addr:street": "Brodského",
       "addr:streetnumber": "7",
       "ref:ruian:addr": "21842329",
+      "ku_kontejneru_m": 189,
       "kontejner": 1214
     },
     "geometry": {
@@ -2393,8 +2394,7 @@
         50.0374543
       ]
     },
-    "id": "node/296457317",
-    "k_najblizsiemu_kontajneru": 189
+    "id": "node/296457317"
   },
   {
     "type": "Feature",
@@ -2407,6 +2407,7 @@
       "addr:streetnumber": "4",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21839085",
+      "ku_kontejneru_m": 497,
       "kontejner": 1176
     },
     "geometry": {
@@ -2416,8 +2417,7 @@
         50.0242645
       ]
     },
-    "id": "node/296457334",
-    "k_najblizsiemu_kontajneru": 497
+    "id": "node/296457334"
   },
   {
     "type": "Feature",
@@ -2430,6 +2430,7 @@
       "addr:street": "Konstantinova",
       "addr:streetnumber": "46",
       "ref:ruian:addr": "21840504",
+      "ku_kontejneru_m": 292,
       "kontejner": 1228
     },
     "geometry": {
@@ -2439,8 +2440,7 @@
         50.0290771
       ]
     },
-    "id": "node/296457580",
-    "k_najblizsiemu_kontajneru": 292
+    "id": "node/296457580"
   },
   {
     "type": "Feature",
@@ -2453,6 +2453,7 @@
       "addr:streetnumber": "19",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21847401",
+      "ku_kontejneru_m": 1012,
       "kontejner": 1205
     },
     "geometry": {
@@ -2462,8 +2463,7 @@
         50.0364146
       ]
     },
-    "id": "node/296457929",
-    "k_najblizsiemu_kontajneru": 1012
+    "id": "node/296457929"
   },
   {
     "type": "Feature",
@@ -2476,6 +2476,7 @@
       "addr:streetnumber": "4",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21830584",
+      "ku_kontejneru_m": 90,
       "kontejner": 1192
     },
     "geometry": {
@@ -2485,8 +2486,7 @@
         50.0362245
       ]
     },
-    "id": "node/296458127",
-    "k_najblizsiemu_kontajneru": 90
+    "id": "node/296458127"
   },
   {
     "type": "Feature",
@@ -2499,6 +2499,7 @@
       "addr:streetnumber": "5",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829535",
+      "ku_kontejneru_m": 206,
       "kontejner": 1218
     },
     "geometry": {
@@ -2508,8 +2509,7 @@
         50.0346322
       ]
     },
-    "id": "node/296458144",
-    "k_najblizsiemu_kontajneru": 206
+    "id": "node/296458144"
   },
   {
     "type": "Feature",
@@ -2522,6 +2522,7 @@
       "addr:streetnumber": "12",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21835080",
+      "ku_kontejneru_m": 260,
       "kontejner": 1205
     },
     "geometry": {
@@ -2531,8 +2532,7 @@
         50.0356474
       ]
     },
-    "id": "node/296458204",
-    "k_najblizsiemu_kontajneru": 260
+    "id": "node/296458204"
   },
   {
     "type": "Feature",
@@ -2545,6 +2545,7 @@
       "addr:streetnumber": "14",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21846804",
+      "ku_kontejneru_m": 572,
       "kontejner": 1176
     },
     "geometry": {
@@ -2554,8 +2555,7 @@
         50.0254614
       ]
     },
-    "id": "node/296458277",
-    "k_najblizsiemu_kontajneru": 572
+    "id": "node/296458277"
   },
   {
     "type": "Feature",
@@ -2568,6 +2568,7 @@
       "addr:streetnumber": "23",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21842477",
+      "ku_kontejneru_m": 27,
       "kontejner": 1205
     },
     "geometry": {
@@ -2577,8 +2578,7 @@
         50.0371204
       ]
     },
-    "id": "node/296458488",
-    "k_najblizsiemu_kontajneru": 27
+    "id": "node/296458488"
   },
   {
     "type": "Feature",
@@ -2591,6 +2591,7 @@
       "addr:streetnumber": "7",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21847550",
+      "ku_kontejneru_m": 1095,
       "kontejner": 1205
     },
     "geometry": {
@@ -2600,8 +2601,7 @@
         50.0369686
       ]
     },
-    "id": "node/296458605",
-    "k_najblizsiemu_kontajneru": 1095
+    "id": "node/296458605"
   },
   {
     "type": "Feature",
@@ -2614,6 +2614,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21842990",
+      "ku_kontejneru_m": 518,
       "kontejner": 1214
     },
     "geometry": {
@@ -2623,8 +2624,7 @@
         50.0326728
       ]
     },
-    "id": "node/296458918",
-    "k_najblizsiemu_kontajneru": 518
+    "id": "node/296458918"
   },
   {
     "type": "Feature",
@@ -2637,6 +2637,7 @@
       "addr:streetnumber": "32",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21832978",
+      "ku_kontejneru_m": 200,
       "kontejner": 1214
     },
     "geometry": {
@@ -2646,8 +2647,7 @@
         50.0352358
       ]
     },
-    "id": "node/296458947",
-    "k_najblizsiemu_kontajneru": 200
+    "id": "node/296458947"
   },
   {
     "type": "Feature",
@@ -2660,6 +2660,7 @@
       "addr:streetnumber": "14",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21841411",
+      "ku_kontejneru_m": 223,
       "kontejner": 1227
     },
     "geometry": {
@@ -2669,8 +2670,7 @@
         50.0307586
       ]
     },
-    "id": "node/296458960",
-    "k_najblizsiemu_kontajneru": 223
+    "id": "node/296458960"
   },
   {
     "type": "Feature",
@@ -2682,6 +2682,7 @@
       "addr:street": "7. května",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21827681",
+      "ku_kontejneru_m": 676,
       "kontejner": 1205
     },
     "geometry": {
@@ -2691,8 +2692,7 @@
         50.0312677
       ]
     },
-    "id": "node/296458979",
-    "k_najblizsiemu_kontajneru": 676
+    "id": "node/296458979"
   },
   {
     "type": "Feature",
@@ -2705,6 +2705,7 @@
       "addr:streetnumber": "4",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21839239",
+      "ku_kontejneru_m": 65,
       "kontejner": 1219
     },
     "geometry": {
@@ -2714,8 +2715,7 @@
         50.0337882
       ]
     },
-    "id": "node/296459034",
-    "k_najblizsiemu_kontajneru": 65
+    "id": "node/296459034"
   },
   {
     "type": "Feature",
@@ -2728,6 +2728,7 @@
       "addr:streetnumber": "20",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21827532",
+      "ku_kontejneru_m": 318,
       "kontejner": 1218
     },
     "geometry": {
@@ -2737,8 +2738,7 @@
         50.0338753
       ]
     },
-    "id": "node/296459072",
-    "k_najblizsiemu_kontajneru": 318
+    "id": "node/296459072"
   },
   {
     "type": "Feature",
@@ -2751,6 +2751,7 @@
       "addr:streetnumber": "6",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21831491",
+      "ku_kontejneru_m": 327,
       "kontejner": 1218
     },
     "geometry": {
@@ -2760,8 +2761,7 @@
         50.0331379
       ]
     },
-    "id": "node/296459131",
-    "k_najblizsiemu_kontajneru": 327
+    "id": "node/296459131"
   },
   {
     "type": "Feature",
@@ -2774,6 +2774,7 @@
       "addr:street": "V lomech",
       "addr:streetnumber": "10",
       "ref:ruian:addr": "21829683",
+      "ku_kontejneru_m": 529,
       "kontejner": 1234
     },
     "geometry": {
@@ -2783,8 +2784,7 @@
         50.025807
       ]
     },
-    "id": "node/296459150",
-    "k_najblizsiemu_kontajneru": 529
+    "id": "node/296459150"
   },
   {
     "type": "Feature",
@@ -2797,6 +2797,7 @@
       "addr:streetnumber": "17",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21846952",
+      "ku_kontejneru_m": 458,
       "kontejner": 1235
     },
     "geometry": {
@@ -2806,8 +2807,7 @@
         50.0229812
       ]
     },
-    "id": "node/296459192",
-    "k_najblizsiemu_kontajneru": 458
+    "id": "node/296459192"
   },
   {
     "type": "Feature",
@@ -2820,6 +2820,7 @@
       "addr:street": "Pod vodojemem",
       "addr:streetnumber": "14",
       "ref:ruian:addr": "21837571",
+      "ku_kontejneru_m": 617,
       "kontejner": 1234
     },
     "geometry": {
@@ -2829,8 +2830,7 @@
         50.0262265
       ]
     },
-    "id": "node/296459445",
-    "k_najblizsiemu_kontajneru": 617
+    "id": "node/296459445"
   },
   {
     "type": "Feature",
@@ -2843,6 +2843,7 @@
       "addr:streetnumber": "4",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21836663",
+      "ku_kontejneru_m": 716,
       "kontejner": 1205
     },
     "geometry": {
@@ -2852,8 +2853,7 @@
         50.0316501
       ]
     },
-    "id": "node/296459540",
-    "k_najblizsiemu_kontajneru": 716
+    "id": "node/296459540"
   },
   {
     "type": "Feature",
@@ -2866,6 +2866,7 @@
       "addr:streetnumber": "15",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21842841",
+      "ku_kontejneru_m": 424,
       "kontejner": 1218
     },
     "geometry": {
@@ -2875,8 +2876,7 @@
         50.0327244
       ]
     },
-    "id": "node/296459721",
-    "k_najblizsiemu_kontajneru": 424
+    "id": "node/296459721"
   },
   {
     "type": "Feature",
@@ -2889,6 +2889,7 @@
       "addr:streetnumber": "13",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21839824",
+      "ku_kontejneru_m": 162,
       "kontejner": 1190
     },
     "geometry": {
@@ -2898,8 +2899,7 @@
         50.0224081
       ]
     },
-    "id": "node/296459762",
-    "k_najblizsiemu_kontajneru": 162
+    "id": "node/296459762"
   },
   {
     "type": "Feature",
@@ -2912,6 +2912,7 @@
       "addr:streetnumber": "1",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21841659",
+      "ku_kontejneru_m": 45,
       "kontejner": 1228
     },
     "geometry": {
@@ -2921,8 +2922,7 @@
         50.0309973
       ]
     },
-    "id": "node/296459793",
-    "k_najblizsiemu_kontajneru": 45
+    "id": "node/296459793"
   },
   {
     "type": "Feature",
@@ -2936,6 +2936,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845352",
+      "ku_kontejneru_m": 1440,
       "kontejner": 1205
     },
     "geometry": {
@@ -2945,8 +2946,7 @@
         50.029967
       ]
     },
-    "id": "node/296460305",
-    "k_najblizsiemu_kontajneru": 1440
+    "id": "node/296460305"
   },
   {
     "type": "Feature",
@@ -2959,6 +2959,7 @@
       "addr:streetnumber": "22",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21843775",
+      "ku_kontejneru_m": 1179,
       "kontejner": 1190
     },
     "geometry": {
@@ -2968,8 +2969,7 @@
         50.0240606
       ]
     },
-    "id": "node/296460592",
-    "k_najblizsiemu_kontajneru": 1179
+    "id": "node/296460592"
   },
   {
     "type": "Feature",
@@ -2982,6 +2982,7 @@
       "addr:streetnumber": "9",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21843473",
+      "ku_kontejneru_m": 1261,
       "kontejner": 1190
     },
     "geometry": {
@@ -2991,8 +2992,7 @@
         50.0251112
       ]
     },
-    "id": "node/296460717",
-    "k_najblizsiemu_kontajneru": 1261
+    "id": "node/296460717"
   },
   {
     "type": "Feature",
@@ -3005,6 +3005,7 @@
       "addr:streetnumber": "12",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21830827",
+      "ku_kontejneru_m": 128,
       "kontejner": 6096
     },
     "geometry": {
@@ -3014,8 +3015,7 @@
         50.0385193
       ]
     },
-    "id": "node/296460850",
-    "k_najblizsiemu_kontajneru": 128
+    "id": "node/296460850"
   },
   {
     "type": "Feature",
@@ -3028,6 +3028,7 @@
       "addr:streetnumber": "10",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829004",
+      "ku_kontejneru_m": 776,
       "kontejner": 1234
     },
     "geometry": {
@@ -3037,8 +3038,7 @@
         50.0275432
       ]
     },
-    "id": "node/296461023",
-    "k_najblizsiemu_kontajneru": 776
+    "id": "node/296461023"
   },
   {
     "type": "Feature",
@@ -3051,6 +3051,7 @@
       "addr:streetnumber": "22",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21837112",
+      "ku_kontejneru_m": 554,
       "kontejner": 1205
     },
     "geometry": {
@@ -3060,8 +3061,7 @@
         50.034357
       ]
     },
-    "id": "node/296461086",
-    "k_najblizsiemu_kontajneru": 554
+    "id": "node/296461086"
   },
   {
     "type": "Feature",
@@ -3074,6 +3074,7 @@
       "addr:streetnumber": "65",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21837902",
+      "ku_kontejneru_m": 702,
       "kontejner": 1205
     },
     "geometry": {
@@ -3083,8 +3084,7 @@
         50.0315478
       ]
     },
-    "id": "node/296461234",
-    "k_najblizsiemu_kontajneru": 702
+    "id": "node/296461234"
   },
   {
     "type": "Feature",
@@ -3097,6 +3097,7 @@
       "addr:streetnumber": "116",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21838275",
+      "ku_kontejneru_m": 977,
       "kontejner": 1234
     },
     "geometry": {
@@ -3106,8 +3107,7 @@
         50.0278862
       ]
     },
-    "id": "node/296461614",
-    "k_najblizsiemu_kontajneru": 977
+    "id": "node/296461614"
   },
   {
     "type": "Feature",
@@ -3120,6 +3120,7 @@
       "addr:streetnumber": "11",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21839611",
+      "ku_kontejneru_m": 163,
       "kontejner": 1235
     },
     "geometry": {
@@ -3129,8 +3130,7 @@
         50.0226774
       ]
     },
-    "id": "node/296461972",
-    "k_najblizsiemu_kontajneru": 163
+    "id": "node/296461972"
   },
   {
     "type": "Feature",
@@ -3143,6 +3143,7 @@
       "addr:streetnumber": "4",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21838101",
+      "ku_kontejneru_m": 73,
       "kontejner": 6096
     },
     "geometry": {
@@ -3152,8 +3153,7 @@
         50.0387947
       ]
     },
-    "id": "node/296462192",
-    "k_najblizsiemu_kontajneru": 73
+    "id": "node/296462192"
   },
   {
     "type": "Feature",
@@ -3166,6 +3166,7 @@
       "addr:streetnumber": "7",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845654",
+      "ku_kontejneru_m": 1451,
       "kontejner": 1205
     },
     "geometry": {
@@ -3175,8 +3176,7 @@
         50.0306663
       ]
     },
-    "id": "node/296462361",
-    "k_najblizsiemu_kontajneru": 1451
+    "id": "node/296462361"
   },
   {
     "type": "Feature",
@@ -3189,6 +3189,7 @@
       "addr:streetnumber": "12",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828857",
+      "ku_kontejneru_m": 629,
       "kontejner": 1205
     },
     "geometry": {
@@ -3198,8 +3199,7 @@
         50.0319926
       ]
     },
-    "id": "node/296462890",
-    "k_najblizsiemu_kontajneru": 629
+    "id": "node/296462890"
   },
   {
     "type": "Feature",
@@ -3212,6 +3212,7 @@
       "addr:streetnumber": "28",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845506",
+      "ku_kontejneru_m": 1238,
       "kontejner": 1205
     },
     "geometry": {
@@ -3221,8 +3222,7 @@
         50.031334
       ]
     },
-    "id": "node/296463153",
-    "k_najblizsiemu_kontajneru": 1238
+    "id": "node/296463153"
   },
   {
     "type": "Feature",
@@ -3235,6 +3235,7 @@
       "addr:streetnumber": "38",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828156",
+      "ku_kontejneru_m": 590,
       "kontejner": 1234
     },
     "geometry": {
@@ -3244,8 +3245,7 @@
         50.0281686
       ]
     },
-    "id": "node/296463313",
-    "k_najblizsiemu_kontajneru": 590
+    "id": "node/296463313"
   },
   {
     "type": "Feature",
@@ -3258,6 +3258,7 @@
       "addr:streetnumber": "59",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21835764",
+      "ku_kontejneru_m": 769,
       "kontejner": 1205
     },
     "geometry": {
@@ -3267,8 +3268,7 @@
         50.0307129
       ]
     },
-    "id": "node/296463347",
-    "k_najblizsiemu_kontajneru": 769
+    "id": "node/296463347"
   },
   {
     "type": "Feature",
@@ -3281,6 +3281,7 @@
       "addr:streetnumber": "7",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21835616",
+      "ku_kontejneru_m": 588,
       "kontejner": 1218
     },
     "geometry": {
@@ -3290,8 +3291,7 @@
         50.0312563
       ]
     },
-    "id": "node/296463497",
-    "k_najblizsiemu_kontajneru": 588
+    "id": "node/296463497"
   },
   {
     "type": "Feature",
@@ -3304,6 +3304,7 @@
       "addr:streetnumber": "17",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828610",
+      "ku_kontejneru_m": 685,
       "kontejner": 1205
     },
     "geometry": {
@@ -3313,8 +3314,7 @@
         50.0312331
       ]
     },
-    "id": "node/296463614",
-    "k_najblizsiemu_kontajneru": 685
+    "id": "node/296463614"
   },
   {
     "type": "Feature",
@@ -3326,6 +3326,7 @@
       "addr:street": "Ženíškova",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21831866",
+      "ku_kontejneru_m": 193,
       "kontejner": 1218
     },
     "geometry": {
@@ -3335,8 +3336,7 @@
         50.0337004
       ]
     },
-    "id": "node/296463650",
-    "k_najblizsiemu_kontajneru": 193
+    "id": "node/296463650"
   },
   {
     "type": "Feature",
@@ -3349,6 +3349,7 @@
       "addr:streetnumber": "17",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845204",
+      "ku_kontejneru_m": 1302,
       "kontejner": 1205
     },
     "geometry": {
@@ -3358,8 +3359,7 @@
         50.0302605
       ]
     },
-    "id": "node/296463761",
-    "k_najblizsiemu_kontajneru": 1302
+    "id": "node/296463761"
   },
   {
     "type": "Feature",
@@ -3372,6 +3372,7 @@
       "addr:streetnumber": "47",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21829152",
+      "ku_kontejneru_m": 699,
       "kontejner": 1234
     },
     "geometry": {
@@ -3381,8 +3382,7 @@
         50.0275768
       ]
     },
-    "id": "node/296463900",
-    "k_najblizsiemu_kontajneru": 699
+    "id": "node/296463900"
   },
   {
     "type": "Feature",
@@ -3395,6 +3395,7 @@
       "addr:streetnumber": "9",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21842540",
+      "ku_kontejneru_m": 200,
       "kontejner": 1205
     },
     "geometry": {
@@ -3404,8 +3405,7 @@
         50.0355739
       ]
     },
-    "id": "node/296464075",
-    "k_najblizsiemu_kontajneru": 200
+    "id": "node/296464075"
   },
   {
     "type": "Feature",
@@ -3418,6 +3418,7 @@
       "addr:streetnumber": "4",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21847339",
+      "ku_kontejneru_m": 1163,
       "kontejner": 1205
     },
     "geometry": {
@@ -3427,8 +3428,7 @@
         50.0356427
       ]
     },
-    "id": "node/296464123",
-    "k_najblizsiemu_kontajneru": 1163
+    "id": "node/296464123"
   },
   {
     "type": "Feature",
@@ -3441,6 +3441,7 @@
       "addr:streetnumber": "21",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21836949",
+      "ku_kontejneru_m": 475,
       "kontejner": 1205
     },
     "geometry": {
@@ -3450,8 +3451,7 @@
         50.034277
       ]
     },
-    "id": "node/296464178",
-    "k_najblizsiemu_kontajneru": 475
+    "id": "node/296464178"
   },
   {
     "type": "Feature",
@@ -3464,6 +3464,7 @@
       "addr:streetnumber": "52",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21833796",
+      "ku_kontejneru_m": 826,
       "kontejner": 1205
     },
     "geometry": {
@@ -3473,8 +3474,7 @@
         50.0299834
       ]
     },
-    "id": "node/296464226",
-    "k_najblizsiemu_kontajneru": 826
+    "id": "node/296464226"
   },
   {
     "type": "Feature",
@@ -3487,6 +3487,7 @@
       "addr:streetnumber": "3",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21841357",
+      "ku_kontejneru_m": 113,
       "kontejner": 1227
     },
     "geometry": {
@@ -3496,8 +3497,7 @@
         50.0305698
       ]
     },
-    "id": "node/296464262",
-    "k_najblizsiemu_kontajneru": 113
+    "id": "node/296464262"
   },
   {
     "type": "Feature",
@@ -3510,6 +3510,7 @@
       "addr:street": "Konstantinova",
       "addr:streetnumber": "32",
       "ref:ruian:addr": "21840431",
+      "ku_kontejneru_m": 365,
       "kontejner": 1228
     },
     "geometry": {
@@ -3519,8 +3520,7 @@
         50.0292974
       ]
     },
-    "id": "node/296464349",
-    "k_najblizsiemu_kontajneru": 365
+    "id": "node/296464349"
   },
   {
     "type": "Feature",
@@ -3533,6 +3533,7 @@
       "addr:streetnumber": "64",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21832820",
+      "ku_kontejneru_m": 943,
       "kontejner": 1234
     },
     "geometry": {
@@ -3542,8 +3543,7 @@
         50.0288663
       ]
     },
-    "id": "node/296464422",
-    "k_najblizsiemu_kontajneru": 943
+    "id": "node/296464422"
   },
   {
     "type": "Feature",
@@ -3556,6 +3556,7 @@
       "addr:street": "Zakouřilova",
       "addr:streetnumber": "67",
       "ref:ruian:addr": "21834849",
+      "ku_kontejneru_m": 984,
       "kontejner": 1234
     },
     "geometry": {
@@ -3565,8 +3566,7 @@
         50.0282314
       ]
     },
-    "id": "node/296464445",
-    "k_najblizsiemu_kontajneru": 984
+    "id": "node/296464445"
   },
   {
     "type": "Feature",
@@ -3579,6 +3579,7 @@
       "addr:street": "Ke Kateřinkám",
       "addr:streetnumber": "10",
       "ref:ruian:addr": "21839468",
+      "ku_kontejneru_m": 230,
       "kontejner": 1235
     },
     "geometry": {
@@ -3588,8 +3589,7 @@
         50.0238306
       ]
     },
-    "id": "node/296464556",
-    "k_najblizsiemu_kontajneru": 230
+    "id": "node/296464556"
   },
   {
     "type": "Feature",
@@ -3602,6 +3602,7 @@
       "addr:streetnumber": "69",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21828300",
+      "ku_kontejneru_m": 566,
       "kontejner": 1205
     },
     "geometry": {
@@ -3611,8 +3612,7 @@
         50.0323208
       ]
     },
-    "id": "node/296464571",
-    "k_najblizsiemu_kontajneru": 566
+    "id": "node/296464571"
   },
   {
     "type": "Feature",
@@ -3625,6 +3625,7 @@
       "addr:streetnumber": "5",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21845646",
+      "ku_kontejneru_m": 1464,
       "kontejner": 1205
     },
     "geometry": {
@@ -3634,8 +3635,7 @@
         50.030556
       ]
     },
-    "id": "node/296464637",
-    "k_najblizsiemu_kontajneru": 1464
+    "id": "node/296464637"
   },
   {
     "type": "Feature",
@@ -3648,6 +3648,7 @@
       "addr:streetnumber": "31",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21832676",
+      "ku_kontejneru_m": 764,
       "kontejner": 1205
     },
     "geometry": {
@@ -3657,8 +3658,7 @@
         50.0310084
       ]
     },
-    "id": "node/296465177",
-    "k_najblizsiemu_kontajneru": 764
+    "id": "node/296465177"
   },
   {
     "type": "Feature",
@@ -3671,6 +3671,7 @@
       "addr:streetnumber": "10",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21846251",
+      "ku_kontejneru_m": 1514,
       "kontejner": 1205
     },
     "geometry": {
@@ -3680,8 +3681,7 @@
         50.0321734
       ]
     },
-    "id": "node/296465700",
-    "k_najblizsiemu_kontajneru": 1514
+    "id": "node/296465700"
   },
   {
     "type": "Feature",
@@ -3694,6 +3694,7 @@
       "addr:streetnumber": "8",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21844143",
+      "ku_kontejneru_m": 1042,
       "kontejner": 1190
     },
     "geometry": {
@@ -3703,8 +3704,7 @@
         50.0221321
       ]
     },
-    "id": "node/296465873",
-    "k_najblizsiemu_kontajneru": 1042
+    "id": "node/296465873"
   },
   {
     "type": "Feature",
@@ -3717,6 +3717,7 @@
       "addr:streetnumber": "12",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21840288",
+      "ku_kontejneru_m": 451,
       "kontejner": 1228
     },
     "geometry": {
@@ -3726,8 +3727,7 @@
         50.0281808
       ]
     },
-    "id": "node/296465909",
-    "k_najblizsiemu_kontajneru": 451
+    "id": "node/296465909"
   },
   {
     "type": "Feature",
@@ -3740,6 +3740,7 @@
       "addr:streetnumber": "24",
       "source:addr": "uir_adr",
       "uir_adr:ADRESA_KOD": "21847185",
+      "ku_kontejneru_m": 1140,
       "kontejner": 1205
     },
     "geometry": {
@@ -3749,7 +3750,6 @@
         50.0374937
       ]
     },
-    "id": "node/296466008",
-    "k_najblizsiemu_kontajneru": 1140
+    "id": "node/296466008"
   }
 ]
