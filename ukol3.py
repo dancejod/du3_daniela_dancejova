@@ -52,35 +52,41 @@ except:
 print("Nacitanych {pocet_adries} adresnych bodov.".format(pocet_adries = len(data_adresy["features"])))
 print("Nacitanych {pocet_kontajnerov} kontajnerov na triedeny odpad.".format(pocet_kontajnerov = len(data_kontajnery["features"])))
 print("Program teraz vypocitava vzdialenosti vchodov od kontajnerov . . .")
-       
-for adresa in data_adresy["features"]:                                  ### Pre kazdu adresu sa na zaciatok nacitaju jej suradnice zo suboru a transformuju sa do S-JTSK
-    krovak_x = adresa["geometry"]["coordinates"][0]
-    krovak_y = adresa["geometry"]["coordinates"][1]       
-    krovak = wgs2jtsk.transform(krovak_x,krovak_y)
-    aktualna_adresa = "{ulica} {cislo}".format(ulica = adresa["properties"]["addr:street"], cislo = adresa["properties"]["addr:housenumber"])      ### Nacita sa sformatovana adresa
-            
-    for kontajner in data_kontajnery["features"]:                               ### Cyklus pre prechadzanie kazdym kontajnerom
-        aktualny_kontajner = kontajner["properties"]["ID"]                      ### Nacita sa ID aktualne spracovaneho kontajneru
+
+try:       
+    for adresa in data_adresy["features"]:                                  ### Pre kazdu adresu sa na zaciatok nacitaju jej suradnice zo suboru a transformuju sa do S-JTSK
+        krovak_x = adresa["geometry"]["coordinates"][0]
+        krovak_y = adresa["geometry"]["coordinates"][1]       
+        krovak = wgs2jtsk.transform(krovak_x,krovak_y)
+        aktualna_adresa = "{ulica} {cislo}".format(ulica = adresa["properties"]["addr:street"], cislo = adresa["properties"]["addr:housenumber"])      ### Nacita sa sformatovana adresa
                 
-        if kontajner["properties"]["PRISTUP"] == "volně":
-            dlz_x = kontajner["geometry"]["coordinates"][0]
-            dlz_y = kontajner["geometry"]["coordinates"][1]
-            vzdialenost = float(sqrt((krovak[0]-dlz_x)**2+(krovak[1]-dlz_y)**2))              ### Vypocet vzdialenosti cez Pytagorovu vetu
+        for kontajner in data_kontajnery["features"]:                               ### Cyklus pre prechadzanie kazdym kontajnerom
+            aktualny_kontajner = kontajner["properties"]["ID"]                      ### Nacita sa ID aktualne spracovaneho kontajneru
+                    
+            if kontajner["properties"]["PRISTUP"] == "volně":
+                dlz_x = kontajner["geometry"]["coordinates"][0]
+                dlz_y = kontajner["geometry"]["coordinates"][1]
+                vzdialenost = float(sqrt((krovak[0]-dlz_x)**2+(krovak[1]-dlz_y)**2))              ### Vypocet vzdialenosti cez Pytagorovu vetu
 
-            if pomocna_vzdialenost == None or pomocna_vzdialenost > vzdialenost:
-                pomocna_vzdialenost = vzdialenost                                           ### Zachovanie najmensej vzdialenosti
-                najblizsi_kontajner = aktualny_kontajner                                    ### Zachova sa ID kontajneru, kde bola najmensia vzdialenost od vchodu
+                if pomocna_vzdialenost == None or pomocna_vzdialenost > vzdialenost:
+                    pomocna_vzdialenost = vzdialenost                                           ### Zachovanie najmensej vzdialenosti
+                    najblizsi_kontajner = aktualny_kontajner                                    ### Zachova sa ID kontajneru, kde bola najmensia vzdialenost od vchodu
 
-        elif kontajner["properties"]["PRISTUP"] == "obyvatelům domu":
-            if aktualna_adresa == kontajner['properties']['STATIONNAME']:                   ### Porovna sa sformatovana adresa s polohou kontajneru, ak je zhoda, vzdialenosti sa priradi 0
-                pomocna_vzdialenost = 0
-            else:
-                pass
+            elif kontajner["properties"]["PRISTUP"] == "obyvatelům domu":
+                if aktualna_adresa == kontajner['properties']['STATIONNAME']:                   ### Porovna sa sformatovana adresa s polohou kontajneru, ak je zhoda, vzdialenosti sa priradi 0
+                    pomocna_vzdialenost = 0
+                else:
+                    pass
+        
+        if pomocna_vzdialenost > 10000:
+            sys.exit("Najblizsi kontajner je dalej ako 10 km, program to nedava.")
+        adresa["k_najblizsiemu_kontajneru"] = round(pomocna_vzdialenost)                               ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
+        adresa["properties"]["kontejner"] = najblizsi_kontajner                                 ### Podobne sa k atributom adresy pripise novy kluc s ID najblizsieho kontajnera
+        pomocna_vzdialenost = None                                                              ### Pomocna vzdialenost sa vynuluje pre pracu s dalsou adresou
+        do_geojsonu.append(adresa)                                                              ### Do zoznamu sa zavola spracovana adresa
 
-    adresa["k_najblizsiemu_kontajneru"] = round(pomocna_vzdialenost)                               ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
-    adresa["properties"]["kontejner"] = najblizsi_kontajner                                 ### Podobne sa k atributom adresy pripise novy kluc s ID najblizsieho kontajnera
-    pomocna_vzdialenost = None                                                              ### Pomocna vzdialenost sa vynuluje pre pracu s dalsou adresou
-    do_geojsonu.append(adresa)                                                              ### Do zoznamu sa zavola spracovana adresa
+except KeyError:
+    sys.exit("Subor nema vsetky pozadovane atributy, prosim opravte ho a nacitajte skript znova.")
 
 with open("adresy_kontejnery.geojson","w", encoding="utf-8") as out:                        ### Zoznam s adresami sa hodi do novovytvoreneho suboru s jednoduchym formatovanim
     json.dump(do_geojsonu, out, ensure_ascii = False, indent = 2)
