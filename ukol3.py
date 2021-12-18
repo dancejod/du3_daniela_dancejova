@@ -79,7 +79,7 @@ try:
                     pass
         
         if pomocna_vzdialenost > 10000:
-            sys.exit("Najblizsi kontajner je dalej ako 10 km. Skuste nahrat viac kontajnerov do vstupu. Program sa teraz ukonci.")
+            raise Exception("Najblizsi kontajner je dalej ako 10 km. Skuste nahrat viac kontajnerov do vstupu. Program sa teraz ukonci.")
 
         adresa["properties"]["ku_kontejneru_m"] = round(pomocna_vzdialenost)                    ### Do slovnika sa k danej adrese pripise novy kluc s najmensou vzdialenostou
         adresa["properties"]["kontejner"] = najblizsi_kontajner                                 ### Podobne sa k atributom adresy pripise novy kluc s ID najblizsieho kontajnera
