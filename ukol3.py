@@ -12,34 +12,52 @@ najblizsi_kontajner = None                                          ### Premenne
 do_geojsonu = []                                                    ### Zoznam, ktory posluzi na ulozenie adries do noveho suboru GEOJSON
 
 try:
-    with open ("adresy.geojson", encoding="utf-8") as adresy, open("kontejnery.geojson", encoding="utf-8") as kontajnery:
-        data_adresy = json.load(adresy)                 ### Nacitanie dat zo suborov  
-        data_kontajnery = json.load(kontajnery)
+    with open ("adresy.geojson", encoding="utf-8") as adresy:
+        data_adresy  =json.load(adresy)                             ### Nacitanie adries zo suboru  
 
 except FileNotFoundError:
-    sys.exit("Vstupny subor neexistuje. Skontroluj, ci sa subor nachadza v rovnakom adresari ako tento skript a je pomenovany spravne.")
+    sys.exit("Vstupny subor adries neexistuje. Skontroluj, ci sa subor nachadza v rovnakom adresari ako tento skript a je pomenovany spravne.")
 
 except IOError:
-    sys.exit("Subor sa neda precitat. Prosim opravte ho a spustite skript znova.")
+    sys.exit("Subor adries sa neda precitat. Prosim opravte ho a spustite skript znova.")
     
 except PermissionError:
-    sys.exit("Skript nema opravnenie otvorit subor.")
+    sys.exit("Skript nema opravnenie otvorit subor s adresami.")
 
 except JSONDecodeError:
-    sys.exit("Vstupny subor nie je validny. Prosim skontrolujte ho a opravte ho.")
+    sys.exit("Vstupny subor s adresami nie je validny. Prosim skontrolujte ho a opravte ho.")
 
 except:
     sys.exit("Nieco sa nepodarilo, program sa teraz ukonci.")
 
+try:
+    with open("kontejnery.geojson", encoding="utf-8") as kontajnery:  
+        data_kontajnery = json.load(kontajnery)                             ### Nacitanie kontajnerov zo suboru
+
+except FileNotFoundError:
+    sys.exit("Vstupny subor s kontajnermi neexistuje. Skontrolujte, ci sa subor nachadza v rovnakom adresari ako tento skript a je pomenovany spravne.")
+
+except IOError:
+    sys.exit("Subor s kontajnermi sa neda precitat. Prosim opravte ho a spustite skript znova.")
     
+except PermissionError:
+    sys.exit("Skript nema opravnenie otvorit subor s kontajnermi.")
+
+except JSONDecodeError:
+    sys.exit("Vstupny subor s kontajnermi nie je validny. Prosim skontrolujte ho a opravte ho.")
+
+except:
+    sys.exit("Nieco sa nepodarilo, program sa teraz ukonci.")
+
 print("Nacitanych {pocet_adries} adresnych bodov.".format(pocet_adries = len(data_adresy["features"])))
-print("Nacitanych {pocet_kontajnerov} kontajnerov.".format(pocet_kontajnerov = len(data_kontajnery["features"])))
+print("Nacitanych {pocet_kontajnerov} kontajnerov na triedeny odpad.".format(pocet_kontajnerov = len(data_kontajnery["features"])))
 print("Program teraz vypocitava vzdialenosti vchodov od kontajnerov . . .")
-        
+       
 for adresa in data_adresy["features"]:                                  ### Pre kazdu adresu sa na zaciatok nacitaju jej suradnice zo suboru a transformuju sa do S-JTSK
     krovak_x = adresa["geometry"]["coordinates"][0]
     krovak_y = adresa["geometry"]["coordinates"][1]       
     krovak = wgs2jtsk.transform(krovak_x,krovak_y)
+    aktualna_adresa = "{ulica} {cislo}".format(ulica = adresa["properties"]["addr:street"], cislo = adresa["properties"]["addr:housenumber"])      ### Nacita sa sformatovana adresa
             
     for kontajner in data_kontajnery["features"]:                               ### Cyklus pre prechadzanie kazdym kontajnerom
         aktualny_kontajner = kontajner["properties"]["ID"]                      ### Nacita sa ID aktualne spracovaneho kontajneru
@@ -54,7 +72,6 @@ for adresa in data_adresy["features"]:                                  ### Pre 
                 najblizsi_kontajner = aktualny_kontajner                                    ### Zachova sa ID kontajneru, kde bola najmensia vzdialenost od vchodu
 
         elif kontajner["properties"]["PRISTUP"] == "obyvatelům domu":
-            aktualna_adresa = "{ulica} {cislo}".format(ulica = adresa["properties"]["addr:street"], cislo = adresa["properties"]["addr:housenumber"])      ### Nacita sa sformatovana adresa
             if aktualna_adresa == kontajner['properties']['STATIONNAME']:                   ### Porovna sa sformatovana adresa s polohou kontajneru, ak je zhoda, vzdialenosti sa priradi 0
                 pomocna_vzdialenost = 0
             else:
